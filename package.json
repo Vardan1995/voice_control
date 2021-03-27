@@ -1,9 +1,9 @@
 {
   "name": "voice-assistant",
   "version": "1.0.0",
-  "description": "Voice assistant that serves voical commands using Javascript and Tensorflow Explained on Coderone's youtube channel",
+  "description": "bla bla bla",
   "main": "index.js",
-  "author": "Islem Maboud",
+  "author": "Vardan Bakhshyan",
   "license": "MIT",
   "private": true,
   "scripts": {

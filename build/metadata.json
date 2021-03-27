@@ -1,0 +1,13 @@
+{
+    "tfjsSpeechCommandsVersion": "0.4.0",
+    "modelName": "TMv2",
+    "timeStamp": "2021-03-26T19:07:26.763Z",
+    "wordLabels": [
+        "Background Noise",
+        "iji",
+        "skizb",
+        "stop",
+        "dandax",
+        "verev"
+    ]
+}

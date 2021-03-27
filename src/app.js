@@ -24,7 +24,7 @@ async function processWord(word) {
     case "skizb":
       scrollPage("top");
       break;
-    case "terti":
+    case "dandax":
       read();
       break;
     default:

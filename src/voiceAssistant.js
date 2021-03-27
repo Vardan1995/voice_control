@@ -1,8 +1,8 @@
 import * as SpeechCommands from "@tensorflow-models/speech-commands";
-// // const VoiceModelMetadata = { tfjsSpeechCommandsVersion: "0.4.0", modelName: "TMv2", timeStamp: "2021-03-26T18:25:49.755Z", wordLabels: ["Background Noise", "iji", "skizb", "stop", "dandax", "verev"] }
+const VoiceModelMetadata = { tfjsSpeechCommandsVersion: "0.4.0", modelName: "TMv2", timeStamp: "2021-03-26T18:25:49.755Z", wordLabels: ["Background Noise", "iji", "skizb", "stop", "dandax", "verev"] }
+
 // import VoiceModel from "../AI_MODELS/voice_model/model.json";
-import VoiceModel from "../AI_MODELS/voice_model/model.json";
-import VoiceModelMetadata from "../AI_MODELS/voice_model/metadata.json";
+// import VoiceModelMetadata from "../AI_MODELS/voice_model/metadata.json";
 export default class VoiceAssistant {
   constructor() {
     this.options = {
@@ -17,7 +17,7 @@ export default class VoiceAssistant {
     const recognizer = SpeechCommands.create(
       "BROWSER_FFT",
       undefined,
-      VoiceModel,
+      chrome.extension.getURL("/model.json"),
       VoiceModelMetadata
     );
 
