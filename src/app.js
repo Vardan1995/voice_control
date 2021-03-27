@@ -15,16 +15,16 @@ async function processWord(word) {
     case "stop":
       stop();
       break;
-    case "iji":
+    case "down":
       scrollPage("down");
       break;
-    case "verev":
+    case "up":
       scrollPage("up");
       break;
-    case "skizb":
+    case "top":
       scrollPage("top");
       break;
-    case "dandax":
+    case "scroll":
       read();
       break;
     default:
